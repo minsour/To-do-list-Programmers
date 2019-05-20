@@ -1,0 +1,27 @@
+{
+    "development": {
+      "username": "soopark",
+      "password": null,
+      "database": "soopark",
+      "host": "icpc.dongguk.ac.kr",
+      "dialect": "mysql",
+      "operatorsAliases": false,
+      "define": {
+        "freezeTableName": true
+      }
+    },
+    "test": {
+      "username": "root",
+      "password": null,
+      "database": "database_test",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    },
+    "production": {
+      "username": "root",
+      "password": null,
+      "database": "database_production",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    }
+  }
