@@ -5,6 +5,11 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
+var todoRouter = require('./routes/todoList');
+var deleteRouter = require('./routes/deleteTodo');
+var updateRouter = require('./routes/updateTodo');
+var addRouter = require('./routes/addTodo');
+var finishRouter = require('./routes/finishTodo');
 var sequelize = require('./models').sequelize;
 
 var app = express();
@@ -21,6 +26,11 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
+app.use('/todoList', todoRouter);
+app.use('/deleteTodo', deleteRouter);
+app.use('/updateTodo', updateRouter);
+app.use('/addTodo', addRouter);
+app.use('/finishTodo', finishRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
