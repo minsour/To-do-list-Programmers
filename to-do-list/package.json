@@ -1,0 +1,15 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "soopark",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.0",
+    "mobx": "^5.9.4",
+    "mobx-react": "^5.4.4",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
