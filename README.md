@@ -26,3 +26,5 @@ front-end 기술 스택
 1. react
 2. next(서버 사이드 렌더링)
 3. mobx(상태 관리)
+
+front-end url: icpc.dongguk.ac.kr:3012
