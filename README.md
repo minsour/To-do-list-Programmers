@@ -23,6 +23,6 @@ front-end 배포 방법
 3. npm start
 
 front-end 기술 스택
-react
-next(서버 사이드 렌더링)
-mobx(상태 관리)
+1. react
+2. next(서버 사이드 렌더링)
+3. mobx(상태 관리)
